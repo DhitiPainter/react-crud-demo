@@ -1,0 +1,29 @@
+form{
+    margin: 50px;
+    .row{
+        width: 100%;
+        .form-control{
+            width: 50%;
+            height: auto;
+            position: relative;
+            display: inline-block;
+            label{
+                float: left;
+                width: 20%;
+                text-align: left;
+                font-size: large;
+                font-weight: 500;
+            }
+            input{
+                border: 2px aliceblue;
+                height: 30px;
+                border-radius: 5px;
+                font-weight: 600;
+                font-size: medium;
+                float: left;
+                padding-left: 5px;
+                width: 60%;
+            }
+        }
+    }
+}
